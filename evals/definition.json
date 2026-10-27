@@ -1,0 +1,11 @@
+{
+  "title": "Claims status regression",
+  "requirementIds": [
+    "CACHE-1",
+    "RATE-1",
+    "PRIVACY-1"
+  ],
+  "inputDescription": "TODO describe workload and starting revision",
+  "assertion": "evals/assert.mjs",
+  "checks": []
+}
