@@ -2,22 +2,16 @@
   "key": "evals",
   "title": "Write an eval that catches regression",
   "minutes": 30,
-  "chapter": "Chapter 2 \u00b7 Evals",
+  "chapter": "Chapter 2 · Evals",
   "writeAllow": [
     "evals/**",
-    "tests/eval/**",
-    "assessment.json"
+    "tests/eval/**"
   ],
-  "practice": [
-    "evals.practice"
-  ],
-  "needsAI": true,
   "brief": "A change to project guidance removes caching from a live-status feature. Happy-path tests pass, but the old claims system exceeds its rate limit. Build a repeatable evaluation that catches the regression without rejecting valid refactors.",
   "acceptance": [
     "The good reference and equivalent valid refactor pass.",
     "Missing cache, rate-limit breach and payload logging are detected.",
     "Assertions inspect behavior rather than file names or fixture IDs.",
     "The eval includes repeatable input, requirement references and documented checks."
-  ],
-  "recipeIndex": 8
+  ]
 }
